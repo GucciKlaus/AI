@@ -1,0 +1,36 @@
+1. Prüfe die Python-Installation
+Überprüfe, ob pip korrekt installiert ist:
+powershell
+Kopieren
+Bearbeiten
+python -m ensurepip --upgrade
+Aktualisiere pip:
+powershell
+Kopieren
+Bearbeiten
+python -m pip install --upgrade pip
+2. Installiere Module mit python -m pip
+Manchmal funktioniert der direkte Aufruf von pip nicht, da der Scripts-Ordner nicht in der Umgebungsvariablen %PATH% enthalten ist. Versuche stattdessen:
+
+powershell
+Kopieren
+Bearbeiten
+python -m pip install tensorflow matplotlib numpy pillow
+3. Prüfe die Umgebungsvariablen
+Stelle sicher, dass der Pfad zu Python und dem Scripts-Verzeichnis korrekt in den Umgebungsvariablen %PATH% eingetragen ist:
+C:\Users\klaus\AppData\Local\Programs\Python\Python312\
+C:\Users\klaus\AppData\Local\Programs\Python\Python312\Scripts\
+So überprüfst du die Pfade:
+
+Öffne "Systemsteuerung" → "System" → "Erweiterte Systemeinstellungen".
+Gehe zu "Umgebungsvariablen" → Wähle "Path" → Überprüfe die Einträge.
+4. Repariere die Python-Installation
+Falls die oben genannten Schritte nicht helfen:
+
+Lade das Python-Installationsprogramm (für Python 3.12) erneut herunter.
+Starte den Installer und wähle "Modify", dann "Repair".
+
+
+
+
+Datasets von Kaggle

@@ -1,0 +1,4 @@
+python -m pip install scipy
+
+PS C:\Users\klaus> python -m pip install tensorflow matplotlib numpy pillow
+python -m pip install --upgrade pip
