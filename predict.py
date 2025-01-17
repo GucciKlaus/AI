@@ -19,6 +19,6 @@ def predict_image(image_path):
         return "Katze"
 
 # Test mit einem neuen Bild
-image_path = "data/test_image.jpg"  # Pfad zu einem Bild
+image_path = "data/Dog/12459.jpg"  # Pfad zu einem Bild
 result = predict_image(image_path)
 print(f"Das Bild zeigt: {result}")
